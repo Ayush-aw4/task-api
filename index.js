@@ -11,7 +11,6 @@ app.use(express.json());
 connectDB();
 
 // Routes
-app.use('/auth', require('./routes/auth.routes'));
 app.use('/tasks', require('./routes/task.routes'));
 
 // Start server
